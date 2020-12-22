@@ -1,0 +1,10 @@
+#output {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(227, 125, 24);
+}
+
+.timer {
+    font-size: 100px;
+    color: red;
+}

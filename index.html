@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dead Line</title>
+<link href="countdown.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<h1>DeadLine</h1>
+<h2>〜　カウントダウンタイマー　〜</h2>
+</div><!-- /.container -->
+</header>
+<main>
+<div class="container">
+<section>
+    <form action="#" id="form">
+        <p>アクションを決めてね！（例：転職する）</p>
+        <p><input type="text" name="deadline"></p>
+        <br>
+
+
+        <p>何年？（例：2023）</p>
+        <p><input type="number" name="year"></p>
+        <br>
+
+        <p>何月？（例：12）</p>
+        <p><input type="number" name="month"></p>
+        <br>
+
+        <P>何日？（例：31）</P>
+        <p><input type="number" name="day"></p>
+        <p><input type="submit" value="決定"></p>
+    </form>
+
+    <br>
+
+    <p id="output"></p>
+    <p class="timer">あと<span id="day"></span>日<span id="hour"></span>時間<span id="min"></span>分<span id="sec"></span>秒</p>
+</section>
+</div><!-- /.container -->
+</main>
+<footer>
+<div class="container">
+</div><!-- /.container -->
+</footer>
+<script src="countdown.js"></script>
+</body>
+</html>
